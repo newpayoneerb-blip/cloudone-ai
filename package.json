@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "CloudOne AI documentation powered by Mintlify",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "mintlify dev --port 3000"
