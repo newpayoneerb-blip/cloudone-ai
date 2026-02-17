@@ -1,21 +1,26 @@
 {
-  "name": "cloudone-ai-docs",
-  "version": "1.0.0",
+  "name": "hostinger-docs",
+  "version": "0.1.0",
   "private": true,
-  "description": "CloudOne AI documentation powered by Mintlify",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "mintlify dev --port 3000"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6"
-  },
-  "engines": {
-    "node": ">=20.17.0"
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "mintlify": "^4.2.340"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
