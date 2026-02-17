@@ -1,0 +1,15 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/alamin/Downloads/cloudone-ai-main/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm exec mintlify@4.2.340 dev --port 3000 --no-open
+7 verbose argv "exec" "--" "mintlify@4.2.340" "dev" "--port" "3000" "--no-open"
+8 verbose logfile logs-max:10 dir:/Users/alamin/Downloads/cloudone-ai-main/.npm/_logs/2026-02-17T09_26_04_976Z-
+9 verbose logfile /Users/alamin/Downloads/cloudone-ai-main/.npm/_logs/2026-02-17T09_26_04_976Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+12 http fetch GET 200 https://registry.npmjs.org/mintlify 81ms (cache revalidated)
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736

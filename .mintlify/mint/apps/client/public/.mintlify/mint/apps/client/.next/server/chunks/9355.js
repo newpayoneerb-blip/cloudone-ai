@@ -1,0 +1,1 @@
+"use strict";exports.id=9355,exports.ids=[9355],exports.modules={369355:(a,b,c)=>{c.r(b),c.d(b,{PreviewWidget:()=>g});var d=c(305939),e=c(811135),f=c(557892);let g=({preview:a})=>{let b=a.changedFiles??[];return(0,d.jsx)(f.PreviewWidgetProvider,{changedFiles:b,children:(0,d.jsx)(e.WidgetTrigger,{})})}}};

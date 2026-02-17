@@ -1,0 +1,1077 @@
+{
+  "anchors": [
+    {
+      "anchor": "Platform Guide",
+      "icon": "book",
+      "groups": [
+        {
+          "group": "Introduction",
+          "pages": [
+            {
+              "title": "What is Autocalls.ai?",
+              "description": "Learn about Autocalls.ai, a voice automation platform that uses AI to handle real-time phone conversations",
+              "icon": "circle-question",
+              "href": "/introduction/what-is-autocalls"
+            },
+            {
+              "title": "How It Works (Quick Overview)",
+              "description": "Understand the technical flow of how Autocalls.ai processes and handles phone conversations using AI",
+              "icon": "diagram-project",
+              "href": "/introduction/how-it-works"
+            },
+            {
+              "title": "Key Terminology",
+              "description": "Essential terms and concepts you need to know to use Autocalls.ai effectively",
+              "icon": "book",
+              "href": "/introduction/key-terminology"
+            }
+          ]
+        },
+        {
+          "group": "Getting Started",
+          "pages": [
+            {
+              "title": "Core Concepts",
+              "description": "Learn the fundamental building blocks of Autocalls.ai, including system prompts, voices, and AI assistants",
+              "icon": "lightbulb",
+              "href": "/getting-started/core-concepts"
+            },
+            {
+              "title": "Understanding Call Minutes & Billing",
+              "description": "Learn how Autocalls.ai billing works, including call minutes calculation, phone number rentals, and usage monitoring",
+              "icon": "credit-card",
+              "href": "/getting-started/understanding-billing"
+            }
+          ]
+        },
+        {
+          "group": "AI Assistants Overview",
+          "pages": [
+            {
+              "title": "What is an AI Assistant?",
+              "description": "Understand what an AI Assistant is, its key components, and how it can help automate your phone interactions",
+              "icon": "robot",
+              "href": "/ai-assistants/what-is-ai-assistant"
+            },
+            {
+              "group": "Creating and Editing an AI Assistant",
+              "icon": "robot",
+              "pages": [
+                {
+                  "title": "General Settings",
+                  "description": "Basic configuration settings for your AI assistant including call direction, phone numbers, voice, and advanced settings.",
+                  "icon": "gear",
+                  "href": "/ai-assistants/settings/general"
+                },
+                {
+                  "title": "Prompt & Tools",
+                  "description": "Configure your assistant's knowledge base, tools, variables, and system prompt to define its capabilities and behavior.",
+                  "icon": "wrench",
+                  "href": "/ai-assistants/settings/prompt-and-tools"
+                },
+                {
+                  "title": "Post-call Actions",
+                  "description": "Extract data from the call and send it to an app/webhook for automation workflows.",
+                  "icon": "webhook",
+                  "href": "/ai-assistants/settings/post-call-actions"
+                }
+              ]
+            },
+            {
+              "title": "Assistant Modes",
+              "description": "Understand the three voice generation modes available for your AI assistants and when to use each one.",
+              "icon": "wave-pulse",
+              "href": "/ai-assistants/assistant-modes"
+            },
+            {
+              "title": "Assistant best practices",
+              "description": "Quick guide to fine-tune mode, transcriber, model, and other settings for the best call experience.",
+              "icon": "sliders",
+              "href": "/ai-assistants/assistant-configuration"
+            },
+            {
+              "title": "System Prompts",
+              "description": "Learn how to create effective system prompts - the core intelligence of your AI assistant",
+              "icon": "brain",
+              "href": "/ai-assistants/system-prompt"
+            },
+            {
+              "title": "AI Prompt Editor",
+              "description": "Edit and improve your assistant's prompts using AI-powered suggestions through a conversational interface",
+              "icon": "sparkles",
+              "href": "/ai-assistants/ai-prompt-editor"
+            },
+            {
+              "title": "Flow Builder",
+              "description": "Design conversation flows visually with an intuitive drag-and-drop interface",
+              "icon": "share-nodes",
+              "href": "/ai-assistants/flow-builder"
+            },
+            {
+              "title": "Initial Message & Audio",
+              "description": "Learn how to create effective initial messages and use custom audio files for the best first impression",
+              "icon": "message-dots",
+              "href": "/ai-assistants/initial-message"
+            },
+            {
+              "title": "Tools & Functions",
+              "description": "Explore the built-in tools and functions that enhance your AI assistant's capabilities during calls",
+              "icon": "screwdriver-wrench",
+              "href": "/ai-assistants/tools-and-functions"
+            },
+            {
+              "title": "Custom Mid-Call Tools",
+              "description": "Learn how to create and configure custom API integrations that your AI assistant can use during calls",
+              "icon": "code-branch",
+              "href": "/ai-assistants/custom-tools"
+            },
+            {
+              "title": "Voice Selection & Voice Cloning",
+              "description": "Learn how to select built-in voices or clone your own voice for your AI assistants",
+              "icon": "microphone",
+              "href": "/ai-assistants/voice-selection"
+            },
+            {
+              "title": "Filler Audio",
+              "description": "Learn how to use filler audio to create more natural conversations with your AI assistant",
+              "icon": "volume",
+              "href": "/ai-assistants/filler-audio"
+            },
+            {
+              "title": "Cal.com Appointment Scheduling",
+              "description": "Enable your AI assistant to schedule appointments using Cal.com",
+              "icon": "calendar-days",
+              "href": "/ai-assistants/cal-com-scheduling"
+            },
+            {
+              "title": "GoHighLevel Appointment Scheduling",
+              "description": "Learn how to enable your AI assistant to schedule appointments using GoHighLevel integration",
+              "icon": "calendar-plus",
+              "href": "/ai-assistants/gohighlevel-scheduling"
+            },
+            {
+              "title": "Testing Your Assistant",
+              "description": "Learn how to quickly test your AI assistant for both inbound and outbound calls",
+              "icon": "vial",
+              "href": "/ai-assistants/testing"
+            },
+            {
+              "title": "Test Chat Interface",
+              "description": "Test your assistant with a text-based chat interface for rapid iteration",
+              "icon": "comment-dots",
+              "href": "/ai-assistants/test-chat"
+            },
+            {
+              "title": "Web Widget",
+              "description": "Embed your AI assistant on your website with voice and chat capabilities",
+              "icon": "code",
+              "href": "/ai-assistants/web-widget"
+            }
+          ]
+        },
+        {
+          "group": "Campaigns",
+          "icon": "bullhorn",
+          "pages": [
+            {
+              "title": "Campaigns Overview",
+              "description": "Learn how to create and manage automated calling campaigns to reach multiple leads efficiently",
+              "icon": "bullhorn",
+              "href": "/campaigns/index"
+            },
+            {
+              "title": "Creating a Campaign",
+              "description": "Step-by-step guide to setting up your first automated calling campaign",
+              "icon": "plus",
+              "href": "/campaigns/creating-campaigns"
+            }
+          ]
+        },
+        {
+          "group": "Leads",
+          "icon": "users",
+          "pages": [
+            {
+              "title": "Leads Overview",
+              "description": "Manage your campaign contacts with primary leads, secondary contacts, and custom variables",
+              "icon": "users",
+              "href": "/leads/index"
+            },
+            {
+              "title": "Managing Leads",
+              "description": "Create, edit, and organize leads with custom variables and secondary contacts",
+              "icon": "user-gear",
+              "href": "/leads/managing-leads"
+            },
+            {
+              "title": "Importing Leads",
+              "description": "Import leads from CSV and Excel files with validation and error handling",
+              "icon": "file-import",
+              "href": "/leads/importing-leads"
+            }
+          ]
+        },
+        {
+          "group": "Custom Dashboards",
+          "icon": "chart-line",
+          "pages": [
+            {
+              "title": "Custom Dashboards",
+              "description": "Create personalized dashboards with widgets to track your call metrics and performance",
+              "icon": "chart-line",
+              "href": "/custom-dashboards/overview"
+            },
+            {
+              "title": "Widget Configuration",
+              "description": "Complete guide for configuring Stat, Chart, and Table widgets with all available options",
+              "icon": "sliders",
+              "href": "/custom-dashboards/widget-types"
+            }
+          ]
+        },
+        {
+          "group": "Conversations",
+          "icon": "messages",
+          "pages": [
+            {
+              "title": "Conversations Overview",
+              "description": "Track and review text-based conversations with your AI assistant",
+              "icon": "messages",
+              "href": "/conversations/overview"
+            },
+            {
+              "title": "Viewing & Managing Conversations",
+              "description": "How to view, filter, and manage your conversation history",
+              "icon": "list-check",
+              "href": "/conversations/viewing-and-managing"
+            }
+          ]
+        },
+        {
+          "group": "WhatsApp Business",
+          "icon": "whatsapp",
+          "pages": [
+            {
+              "title": "WhatsApp Business Integration",
+              "description": "Connect your AI assistants to WhatsApp Business for automated text-based customer conversations",
+              "icon": "whatsapp",
+              "href": "/whatsapp/overview"
+            },
+            {
+              "title": "WhatsApp Senders",
+              "description": "Create and manage WhatsApp Business senders for AI-powered messaging",
+              "icon": "phone",
+              "href": "/whatsapp/senders"
+            },
+            {
+              "title": "Message Templates",
+              "description": "Create and manage WhatsApp message templates for business-initiated conversations",
+              "icon": "file-lines",
+              "href": "/whatsapp/templates"
+            },
+            {
+              "title": "WhatsApp Conversations",
+              "description": "Track and manage AI-powered WhatsApp conversations with customers",
+              "icon": "messages",
+              "href": "/whatsapp/conversations"
+            },
+            {
+              "title": "WhatsApp Automation",
+              "description": "Automate WhatsApp messaging with triggers and actions in the automation platform",
+              "icon": "bolt",
+              "href": "/whatsapp/automation"
+            }
+          ]
+        },
+        {
+          "group": "Phone Numbers",
+          "pages": [
+            {
+              "title": "Types of Phone Numbers",
+              "description": "Learn about the different types of phone numbers you can use with Autocalls.ai: dedicated numbers, SIP integration, and Caller ID",
+              "icon": "phone",
+              "href": "/phone-numbers/types"
+            },
+            {
+              "title": "Purchasing & Managing Numbers",
+              "description": "Learn how to purchase, provision, and manage phone numbers for your AI assistants",
+              "icon": "phone-plus",
+              "href": "/phone-numbers/purchasing-and-managing"
+            },
+            {
+              "title": "Pricing & Regions",
+              "description": "Understand phone number pricing across different regions, documentation requirements, and additional fees",
+              "icon": "money-bill",
+              "href": "/phone-numbers/pricing-and-regions"
+            },
+            {
+              "title": "SMS Capabilities",
+              "description": "Learn about SMS features, requirements, and pricing for your phone numbers",
+              "icon": "message-sms",
+              "href": "/phone-numbers/sms-capabilities"
+            },
+            {
+              "title": "Assigning Numbers to Assistants",
+              "description": "Learn how to connect your phone numbers to AI assistants for both inbound and outbound calls",
+              "icon": "link",
+              "href": "/phone-numbers/assigning-to-assistants"
+            }
+          ]
+        },
+        {
+          "group": "Inbound Calls",
+          "pages": [
+            {
+              "title": "Inbound Calls Overview",
+              "description": "Learn how AI assistants handle incoming calls, from answering to call completion and analytics",
+              "icon": "phone-arrow-down-left",
+              "href": "/inbound-calls/overview"
+            },
+            {
+              "title": "Provisioning & Managing Phone Numbers",
+              "description": "Learn how to provision, assign, and manage phone numbers for inbound AI calls",
+              "icon": "phone-plus",
+              "href": "/inbound-calls/provisioning"
+            },
+            {
+              "title": "Configuring the Inbound Assistant",
+              "description": "Set up your inbound AI assistant with prompts, voices, and tools for handling incoming calls",
+              "icon": "sliders",
+              "href": "/inbound-calls/configuring"
+            },
+            {
+              "title": "Inbound Call Insights",
+              "description": "Access and analyze inbound call data, including transcripts, recordings, and automation triggers",
+              "icon": "chart-line",
+              "href": "/inbound-calls/insights"
+            }
+          ]
+        },
+        {
+          "group": "Outbound Calls",
+          "pages": [
+            {
+              "title": "Outbound Calls Overview",
+              "description": "Learn about outbound call campaigns, including sales calls, reminders, and follow-ups using AI assistants",
+              "icon": "phone-arrow-up-right",
+              "href": "/outbound-calls/overview"
+            },
+            {
+              "title": "Creating & Managing Campaigns",
+              "description": "Step-by-step guide to creating and managing outbound call campaigns, including lead imports and monitoring",
+              "icon": "bullhorn",
+              "href": "/outbound-calls/campaigns"
+            },
+            {
+              "title": "Caller ID & Handling",
+              "description": "Learn how to configure and manage caller ID for outbound campaigns",
+              "icon": "id-card",
+              "href": "/outbound-calls/caller-id"
+            },
+            {
+              "title": "Voicemail Handling",
+              "description": "Learn how your AI assistant handles voicemail detection in outbound calls",
+              "icon": "voicemail",
+              "href": "/outbound-calls/voicemail-handling"
+            },
+            {
+              "title": "Scripts & Prompts for Sales or Collections",
+              "description": "Learn how to write effective system prompts and scripts for outbound sales and collection calls",
+              "icon": "file-lines",
+              "href": "/outbound-calls/scripts-and-prompts"
+            },
+            {
+              "title": "Mass/Parallel Dialing",
+              "description": "Learn how to manage high-volume outbound campaigns with parallel dialing while maintaining compliance",
+              "icon": "phone-volume",
+              "href": "/outbound-calls/mass-dialing"
+            }
+          ]
+        },
+        {
+          "group": "AI Prompting & Conversation Design",
+          "pages": [
+            {
+              "title": "Prompt Writing Basics",
+              "description": "Learn how to write effective system prompts and initial messages for your AI assistants",
+              "icon": "pen-nib",
+              "href": "/conversation-design/prompt-basics"
+            },
+            {
+              "title": "Knowledge Bases",
+              "description": "Learn how to provide your AI assistant with access to FAQs, documents, and other knowledge sources",
+              "icon": "database",
+              "href": "/conversation-design/knowledge-bases"
+            },
+            {
+              "title": "Handling Interruptions & Speech Sensitivity",
+              "description": "Configure how your AI assistant handles interruptions, voice activity detection, and speech patterns",
+              "icon": "hand",
+              "href": "/conversation-design/interruptions"
+            },
+            {
+              "title": "Language & Accent Support",
+              "description": "Explore available languages and accents for your AI assistant, and learn how to request new ones",
+              "icon": "language",
+              "href": "/conversation-design/language-support"
+            }
+          ]
+        },
+        {
+          "group": "Automation & Integrations",
+          "pages": [
+            {
+              "title": "Overview of No-Code Automation",
+              "description": "Learn about Autocalls.ai's built-in automation engine for creating workflows without coding",
+              "icon": "wand-magic-sparkles",
+              "href": "/automation/overview"
+            },
+            {
+              "title": "Webhook & API",
+              "description": "Learn how to use webhooks and the REST API for custom integrations and automation",
+              "icon": "code",
+              "href": "/automation/webhook-api"
+            },
+            {
+              "title": "Phone System Integrations",
+              "description": "Learn how to integrate Autocalls.ai with your existing PBX or VOIP infrastructure through SIP trunks",
+              "icon": "phone-office",
+              "href": "/provisioning/phone-system-integrations"
+            }
+          ]
+        },
+        {
+          "group": "Costs & Pricing",
+          "pages": [
+            {
+              "title": "Cost Overview",
+              "description": "Understand the main components of Autocalls.ai pricing, including call minutes, number rentals, and optional fees",
+              "icon": "dollar-sign",
+              "href": "/pricing/overview"
+            },
+            {
+              "title": "Pricing Breakdown",
+              "description": "Detailed explanation of how call minutes are calculated and billed",
+              "icon": "calculator",
+              "href": "/pricing/usage-based"
+            },
+            {
+              "title": "Number Rentals & International Rates",
+              "description": "Understand phone number rental costs, plus how SIP and Caller ID usage is billed by the minute.",
+              "icon": "globe",
+              "href": "/pricing/number-rentals"
+            }
+          ]
+        },
+        {
+          "group": "Number Provisioning",
+          "pages": [
+            {
+              "title": "Supported Countries",
+              "description": "Learn about phone number availability and provisioning across different countries",
+              "icon": "globe",
+              "href": "/provisioning/supported-countries"
+            },
+            {
+              "title": "Managing Your Numbers",
+              "description": "Learn how to view, label, release, and manage your provisioned phone numbers",
+              "icon": "list-check",
+              "href": "/provisioning/managing-numbers"
+            },
+            {
+              "group": "SIP trunking",
+              "icon": "phone-volume",
+              "pages": [
+                {
+                  "title": "Overview",
+                  "description": "Connect your existing phone system and numbers to Autocalls.ai",
+                  "href": "/provisioning/sip-trunking/sip-integration"
+                },
+                {
+                  "title": "Twilio Integration",
+                  "description": "A step by step guide to connect to your Twilio account via SIP trunking",
+                  "href": "/provisioning/sip-trunking/twilio"
+                },
+                {
+                  "title": "Zadarma Integration",
+                  "description": "A step by step guide to connect to your Zadarma account via SIP trunking",
+                  "href": "/provisioning/sip-trunking/zadarma"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Troubleshooting & FAQs",
+          "pages": [
+            {
+              "title": "AI Behavior Issues",
+              "description": "Troubleshoot and optimize your AI assistant's conversation behavior and responses",
+              "icon": "robot",
+              "href": "/troubleshooting/ai-behavior"
+            },
+            {
+              "title": "Billing & Credits",
+              "description": "Troubleshoot billing issues, understand charges, and learn about refund policies and usage tracking",
+              "icon": "money-bill",
+              "href": "/troubleshooting/billing"
+            },
+            {
+              "title": "Cal.com Issues",
+              "description": "Troubleshoot common Cal.com integration issues",
+              "icon": "calendar-days",
+              "href": "/troubleshooting/cal-com"
+            },
+            {
+              "title": "Call Quality Issues",
+              "description": "Troubleshoot and optimize call quality, latency, and connection issues",
+              "icon": "phone",
+              "href": "/troubleshooting/call-quality"
+            },
+            {
+              "title": "Campaign Issues",
+              "description": "Solve common campaign issues and optimize performance",
+              "icon": "wrench",
+              "href": "/troubleshooting/campaigns"
+            },
+            {
+              "title": "GoHighLevel Issues",
+              "description": "Common GoHighLevel integration problems and solutions",
+              "icon": "calendar-days",
+              "href": "/troubleshooting/gohighlevel"
+            },
+            {
+              "title": "Leads Issues",
+              "description": "Solve common lead management issues and import problems",
+              "icon": "user-gear",
+              "href": "/troubleshooting/leads"
+            },
+            {
+              "title": "SIP Integration Issues",
+              "description": "Troubleshoot SIP trunk connection problems and configuration issues",
+              "icon": "phone-volume",
+              "href": "/troubleshooting/sip-integration"
+            },
+            {
+              "title": "Voice & Response Issues",
+              "description": "Troubleshoot voice quality and response timing issues with your AI assistant",
+              "icon": "microphone",
+              "href": "/troubleshooting/voice-problems"
+            },
+            {
+              "title": "Web Widget Issues",
+              "description": "Troubleshoot common web widget problems and integration issues",
+              "icon": "code",
+              "href": "/troubleshooting/web-widget"
+            },
+            {
+              "title": "WhatsApp Troubleshooting",
+              "description": "Common issues and solutions for WhatsApp Business integration",
+              "icon": "circle-question",
+              "href": "/troubleshooting/whatsapp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "No-Code Automation",
+      "icon": "wand-magic-sparkles",
+      "color": {
+        "light": "#6c63ff",
+        "dark": "#6c63ff"
+      },
+      "groups": [
+        {
+          "group": "No-Code Automation platform",
+          "pages": [
+            {
+              "title": "Introduction",
+              "description": "Learn How to Automate Your AI Call Workflows with Autocalls",
+              "href": "/automation-platform/introduction"
+            },
+            {
+              "title": "Building Flows",
+              "description": "Flow consists of two parts, trigger and actions",
+              "icon": "hammer",
+              "href": "/automation-platform/building-flows"
+            },
+            {
+              "title": "Passing Data",
+              "description": "Using data from previous steps in the current one",
+              "icon": "wand-sparkles",
+              "href": "/automation-platform/passing-data"
+            },
+            {
+              "title": "Publishing Flows",
+              "description": "Make your flow work by publishing your updates",
+              "icon": "bolt",
+              "href": "/automation-platform/publishing-flows"
+            },
+            {
+              "title": "Debugging Runs",
+              "description": "Ensuring your business automations are running properly",
+              "icon": "bug",
+              "href": "/automation-platform/debugging-runs"
+            },
+            {
+              "title": "Version History",
+              "description": "Learn how flow versioning works in Autocalls.ai",
+              "icon": "clock",
+              "href": "/automation-platform/versioning"
+            },
+            {
+              "title": "Technical limits",
+              "description": "Technical limits for flows execution",
+              "icon": "ban",
+              "href": "/automation-platform/known-limits"
+            }
+          ]
+        },
+        {
+          "group": "Calls Related",
+          "pages": [
+            {
+              "title": "Autocalls Tool",
+              "description": "Learn how to use Autocalls triggers and actions in your AI calling flows",
+              "icon": "phone",
+              "href": "/automation-platform/calls-related/autocalls-tool"
+            },
+            {
+              "title": "Common Integrations",
+              "description": "Explore popular integrations with Google Sheets, calendars, CRMs, and notification tools",
+              "icon": "puzzle-piece",
+              "href": "/automation-platform/calls-related/common-integrations"
+            },
+            {
+              "title": "Sending SMS",
+              "description": "Learn how to send SMS messages using the automation platform and SMS-capable numbers",
+              "icon": "message-sms",
+              "href": "/automation-platform/calls-related/sms-capabilities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "API Reference",
+      "icon": "code",
+      "color": {
+        "light": "#1c51fc",
+        "dark": "#1c51fc"
+      },
+      "groups": [
+        {
+          "group": "API Reference",
+          "pages": [
+            {
+              "title": "Introduction",
+              "description": "Welcome to the Autocalls API",
+              "icon": "book-open",
+              "href": "/api-reference/introduction"
+            },
+            {
+              "title": "Authentication",
+              "description": "Learn how to authenticate your API requests",
+              "icon": "key",
+              "href": "/api-reference/authentication"
+            },
+            {
+              "title": "Get current user",
+              "description": "Get the authenticated user's profile information",
+              "api": "GET /user/me",
+              "href": "/api-reference/user/me"
+            }
+          ]
+        },
+        {
+          "group": "Assistants",
+          "pages": [
+            {
+              "title": "List assistants",
+              "description": "List all assistants for the authenticated user with pagination",
+              "api": "GET /user/assistants/get",
+              "href": "/api-reference/assistants/get-assistants"
+            },
+            {
+              "title": "Get outbound assistants",
+              "description": "Retrieve all outbound assistants for the authenticated user",
+              "api": "GET /user/assistants/outbound",
+              "href": "/api-reference/assistants/get-outbound-assistants"
+            },
+            {
+              "title": "Create assistant",
+              "description": "Create a new AI assistant with specified configuration",
+              "api": "POST /user/assistant",
+              "href": "/api-reference/assistants/create-assistant"
+            },
+            {
+              "title": "Update assistant",
+              "description": "Update an existing AI assistant's configuration",
+              "api": "PUT /user/assistant/{id}",
+              "href": "/api-reference/assistants/update-assistant"
+            },
+            {
+              "title": "Delete assistant",
+              "description": "Delete a specific AI assistant",
+              "api": "DELETE /user/assistant/{id}",
+              "href": "/api-reference/assistants/delete-assistant"
+            },
+            {
+              "title": "Enable assistant inbound webhook",
+              "description": "Enable inbound webhook notifications for a specific assistant",
+              "api": "POST /user/assistants/enable-inbound-webhook",
+              "href": "/api-reference/assistants/enable-inbound-webhook"
+            },
+            {
+              "title": "Disable assistant inbound webhook",
+              "description": "Disable inbound webhook notifications for a specific assistant",
+              "api": "POST /user/assistants/disable-inbound-webhook",
+              "href": "/api-reference/assistants/disable-inbound-webhook"
+            },
+            {
+              "title": "Disable assistant webhook",
+              "description": "Disable webhook notifications for a specific assistant",
+              "api": "POST /user/assistants/disable-webhook",
+              "href": "/api-reference/assistants/disable-webhook"
+            },
+            {
+              "title": "Get available languages",
+              "description": "Retrieve all available languages for assistant configuration",
+              "api": "GET /user/assistants/languages",
+              "href": "/api-reference/assistants/get-languages"
+            },
+            {
+              "title": "Get available voices",
+              "description": "Retrieve all available voices for assistant configuration",
+              "api": "GET /user/assistants/voices",
+              "href": "/api-reference/assistants/get-voices"
+            },
+            {
+              "title": "Get available models",
+              "description": "Retrieve available AI models for assistant configuration",
+              "api": "GET /user/assistants/models",
+              "href": "/api-reference/assistants/get-models"
+            },
+            {
+              "title": "Get available phone numbers",
+              "description": "Retrieve all available phone numbers for assistant assignment",
+              "api": "GET /user/assistants/phone-numbers",
+              "href": "/api-reference/assistants/get-phone-numbers"
+            }
+          ]
+        },
+        {
+          "group": "Calls",
+          "pages": [
+            {
+              "title": "List calls",
+              "description": "List all calls for the authenticated user with filtering options",
+              "api": "GET /user/calls",
+              "href": "/api-reference/calls/get-calls"
+            },
+            {
+              "title": "Get call",
+              "description": "Retrieve details of a specific call by ID",
+              "api": "GET /user/calls/{id}",
+              "href": "/api-reference/calls/get-call"
+            },
+            {
+              "title": "Make a phone call",
+              "description": "Make a phone call",
+              "api": "POST /user/make_call",
+              "href": "/api-reference/calls/make-phone-call"
+            },
+            {
+              "title": "Delete call",
+              "description": "Delete a specific call record",
+              "api": "DELETE /user/calls/{call}",
+              "href": "/api-reference/calls/delete-call"
+            }
+          ]
+        },
+        {
+          "group": "Conversations",
+          "pages": [
+            {
+              "title": "List Conversations",
+              "description": "List all conversations for the authenticated user with filtering and pagination",
+              "api": "GET /user/conversations",
+              "href": "/api-reference/conversations/list-conversations"
+            },
+            {
+              "title": "Create Conversation",
+              "description": "Create a new conversation session with an AI assistant",
+              "api": "POST /conversations",
+              "href": "/api-reference/conversations/create-conversation"
+            },
+            {
+              "title": "Get Conversation",
+              "description": "Retrieve the message history of a conversation",
+              "api": "GET /conversations/{uuid}",
+              "href": "/api-reference/conversations/get-conversation"
+            },
+            {
+              "title": "Send Message",
+              "description": "Send a message in an existing conversation and receive the assistant's response",
+              "api": "POST /conversations/{uuid}/messages",
+              "href": "/api-reference/conversations/send-message"
+            }
+          ]
+        },
+        {
+          "group": "AI",
+          "pages": [
+            {
+              "title": "Generate AI Reply",
+              "description": "Generate an AI response using an assistant, identified by an external customer identifier",
+              "api": "POST /ai/generate-reply",
+              "href": "/api-reference/ai/generate-reply"
+            }
+          ]
+        },
+        {
+          "group": "Mid Call Tools",
+          "pages": [
+            {
+              "title": "List mid call tools",
+              "description": "Retrieve all mid call tools",
+              "api": "GET /user/tools",
+              "href": "/api-reference/mid-call-tools/get-tools"
+            },
+            {
+              "title": "Get mid call tool",
+              "description": "Retrieve a specific mid call tool by ID",
+              "api": "GET /user/tools/{id}",
+              "href": "/api-reference/mid-call-tools/get-tool"
+            },
+            {
+              "title": "Create mid call tool",
+              "description": "Create a new mid call tool",
+              "api": "POST /user/tools",
+              "href": "/api-reference/mid-call-tools/create-tool"
+            },
+            {
+              "title": "Update mid call tool",
+              "description": "Update an existing mid call tool",
+              "api": "PUT /user/tools/{id}",
+              "href": "/api-reference/mid-call-tools/update-tool"
+            },
+            {
+              "title": "Delete mid call tool",
+              "description": "Delete a mid call tool",
+              "api": "DELETE /user/tools/{id}",
+              "href": "/api-reference/mid-call-tools/delete-tool"
+            }
+          ]
+        },
+        {
+          "group": "Leads",
+          "pages": [
+            {
+              "title": "List leads",
+              "description": "List all leads for the authenticated user with filtering and pagination options",
+              "api": "GET /user/leads",
+              "href": "/api-reference/leads/get-lead"
+            },
+            {
+              "title": "Create lead",
+              "description": "Create a new lead in the Autocalls system",
+              "api": "POST /user/lead",
+              "href": "/api-reference/leads/create"
+            },
+            {
+              "title": "Update Lead",
+              "description": "Update an existing lead in your campaigns",
+              "api": "PUT /user/leads/{id}",
+              "href": "/api-reference/leads/update-lead"
+            },
+            {
+              "title": "Delete lead",
+              "description": "Delete a lead from the Autocalls system",
+              "api": "DELETE /user/leads/{id}",
+              "href": "/api-reference/leads/delete"
+            }
+          ]
+        },
+        {
+          "group": "Campaigns",
+          "pages": [
+            {
+              "title": "List campaigns",
+              "description": "List all campaigns",
+              "api": "GET /user/campaigns",
+              "href": "/api-reference/campaigns/get-campaigns"
+            },
+            {
+              "title": "Update campaign status",
+              "description": "Start or stop a campaign in the Autocalls system",
+              "api": "POST /user/campaigns/update-status",
+              "href": "/api-reference/campaigns/update-status"
+            }
+          ]
+        },
+        {
+          "group": "Phone Numbers",
+          "pages": [
+            {
+              "title": "Get all phone numbers",
+              "description": "Get all phone numbers owned by the authenticated user",
+              "api": "GET /user/phone-numbers/all",
+              "href": "/api-reference/phone-numbers/get-phone-numbers"
+            },
+            {
+              "title": "Search available phone numbers",
+              "description": "Search for available phone numbers that can be purchased",
+              "api": "GET /user/phone-numbers/search",
+              "href": "/api-reference/phone-numbers/search-phone-numbers"
+            },
+            {
+              "title": "Purchase phone number",
+              "description": "Purchase a dedicated phone number",
+              "api": "POST /user/phone-numbers/purchase",
+              "href": "/api-reference/phone-numbers/purchase-phone-number"
+            },
+            {
+              "title": "Release phone number",
+              "description": "Release a phone number and cancel its subscription",
+              "api": "DELETE /user/phone-numbers/{id}",
+              "href": "/api-reference/phone-numbers/release-phone-number"
+            }
+          ]
+        },
+        {
+          "group": "Knowledgebases",
+          "pages": [
+            {
+              "title": "Get knowledgebases",
+              "description": "Get all knowledgebases for the authenticated user",
+              "api": "GET /user/knowledgebases",
+              "href": "/api-reference/knowledgebases/get-knowledgebases"
+            },
+            {
+              "title": "Get knowledgebase",
+              "description": "Get a single knowledgebase by ID",
+              "api": "GET /user/knowledgebases/{id}",
+              "href": "/api-reference/knowledgebases/get-knowledgebase"
+            },
+            {
+              "title": "Create knowledgebase",
+              "description": "Create a new knowledgebase",
+              "api": "POST /user/knowledgebases",
+              "href": "/api-reference/knowledgebases/create-knowledgebase"
+            },
+            {
+              "title": "Update knowledgebase",
+              "description": "Update an existing knowledgebase",
+              "api": "PUT /user/knowledgebases/{id}",
+              "href": "/api-reference/knowledgebases/update-knowledgebase"
+            },
+            {
+              "title": "Delete knowledgebase",
+              "description": "Delete a knowledgebase and all its documents",
+              "api": "DELETE /user/knowledgebases/{id}",
+              "href": "/api-reference/knowledgebases/delete-knowledgebase"
+            },
+            {
+              "title": "Get documents",
+              "description": "Get all documents in a knowledgebase",
+              "api": "GET /user/knowledgebases/{knowledgebaseId}/documents",
+              "href": "/api-reference/knowledgebases/get-documents"
+            },
+            {
+              "title": "Get document",
+              "description": "Get a single document by ID",
+              "api": "GET /user/knowledgebases/{knowledgebaseId}/documents/{documentId}",
+              "href": "/api-reference/knowledgebases/get-document"
+            },
+            {
+              "title": "Create document",
+              "description": "Add a new document to a knowledgebase",
+              "api": "POST /user/knowledgebases/{knowledgebaseId}/documents",
+              "href": "/api-reference/knowledgebases/create-document"
+            },
+            {
+              "title": "Update document",
+              "description": "Update a document's name or description",
+              "api": "PUT /user/knowledgebases/{knowledgebaseId}/documents/{documentId}",
+              "href": "/api-reference/knowledgebases/update-document"
+            },
+            {
+              "title": "Delete document",
+              "description": "Delete a document from a knowledgebase",
+              "api": "DELETE /user/knowledgebases/{knowledgebaseId}/documents/{documentId}",
+              "href": "/api-reference/knowledgebases/delete-document"
+            }
+          ]
+        },
+        {
+          "group": "SMS",
+          "pages": [
+            {
+              "title": "Send SMS",
+              "description": "Send an SMS message using your phone number",
+              "api": "POST /user/sms",
+              "href": "/api-reference/sms/send-sms"
+            }
+          ]
+        },
+        {
+          "group": "Webhooks",
+          "pages": [
+            {
+              "title": "Post-Call Webhook",
+              "description": "Webhook sent after a call is completed containing extracted variables and call data",
+              "icon": "webhook",
+              "href": "/api-reference/webhooks/post-call-webhook"
+            }
+          ]
+        },
+        {
+          "group": "API Keys",
+          "pages": [
+            {
+              "title": "Create API key",
+              "description": "Generate a new API key for the authenticated user",
+              "api": "POST /user/api-keys",
+              "href": "/api-reference/authentication/create-api-key"
+            },
+            {
+              "title": "List API keys",
+              "description": "Get all API keys for the authenticated user",
+              "api": "GET /user/api-keys",
+              "href": "/api-reference/authentication/list-api-keys"
+            },
+            {
+              "title": "Delete API key",
+              "description": "Delete an API key",
+              "api": "DELETE /user/api-keys/{id}",
+              "href": "/api-reference/authentication/delete-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "Platform updates",
+      "icon": "scroll",
+      "color": {
+        "light": "#ffbb00",
+        "dark": "#ffbb00"
+      },
+      "groups": [
+        {
+          "group": "Platform updates",
+          "pages": [
+            {
+              "title": "Product Updates",
+              "description": "Latest features, improvements, and announcements from the Autocalls team",
+              "icon": "scroll",
+              "href": "/releases/index"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

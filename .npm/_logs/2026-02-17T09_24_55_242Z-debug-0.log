@@ -1,0 +1,35 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/alamin/Downloads/cloudone-ai-main/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm exec mintlify@1.0.0 dev --port 3000 --no-open
+7 verbose argv "exec" "--" "mintlify@1.0.0" "dev" "--port" "3000" "--no-open"
+8 verbose logfile logs-max:10 dir:/Users/alamin/Downloads/cloudone-ai-main/.npm/_logs/2026-02-17T09_24_55_242Z-
+9 verbose logfile /Users/alamin/Downloads/cloudone-ai-main/.npm/_logs/2026-02-17T09_24_55_242Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+12 http fetch GET 200 https://registry.npmjs.org/mintlify 91ms (cache revalidated)
+13 verbose type version
+14 verbose stack mintlify: No matching version found for mintlify@1.0.0.
+14 verbose stack     at module.exports (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:210:23)
+14 verbose stack     at RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:130:54)
+14 verbose stack     at async getManifest (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:29:22)
+14 verbose stack     at async missingFromTree (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:64:22)
+14 verbose stack     at async /usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:186:32
+14 verbose stack     at async Promise.all (index 0)
+14 verbose stack     at async exec (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:184:3)
+14 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:208:9)
+14 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:67:5)
+15 error code ETARGET
+16 error notarget No matching version found for mintlify@1.0.0.
+17 error notarget In most cases you or one of your dependencies are requesting
+17 error notarget a package version that doesn't exist.
+18 verbose cwd /Users/alamin/Downloads/cloudone-ai-main
+19 verbose os Darwin 25.2.0
+20 verbose node v24.13.0
+21 verbose npm  v11.6.2
+22 verbose exit 1
+23 verbose code 1
+24 error A complete log of this run can be found in: /Users/alamin/Downloads/cloudone-ai-main/.npm/_logs/2026-02-17T09_24_55_242Z-debug-0.log

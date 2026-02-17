@@ -1,0 +1,263 @@
+{
+  "version": 4,
+  "routes": {
+    "/_not-found": {
+      "initialStatus": 404,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/_not-found",
+      "dataRoute": "/_not-found.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/_mintlify/auth-metadata/[subdomain]/[[...slug]]": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/_mintlify/auth\\-metadata/([^/]+?)(?:/(.+?))?(?:/)?$",
+      "dataRoute": null,
+      "fallback": null,
+      "dataRouteRegex": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_sites/[subdomain]/_hidden-login-pages/login/jwt-callback": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/_sites/([^/]+?)/_hidden\\-login\\-pages/login/jwt\\-callback(?:/)?$",
+      "dataRoute": "/_sites/[subdomain]/_hidden-login-pages/login/jwt-callback.rsc",
+      "fallback": null,
+      "dataRouteRegex": "^/_sites/([^/]+?)/_hidden\\-login\\-pages/login/jwt\\-callback\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_sites/[subdomain]/_hidden-login-pages/login/mintlify-callback": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/_sites/([^/]+?)/_hidden\\-login\\-pages/login/mintlify\\-callback(?:/)?$",
+      "dataRoute": "/_sites/[subdomain]/_hidden-login-pages/login/mintlify-callback.rsc",
+      "fallback": null,
+      "dataRouteRegex": "^/_sites/([^/]+?)/_hidden\\-login\\-pages/login/mintlify\\-callback\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_sites/[subdomain]/_hidden-login-pages/login": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/_sites/([^/]+?)/_hidden\\-login\\-pages/login(?:/)?$",
+      "dataRoute": "/_sites/[subdomain]/_hidden-login-pages/login.rsc",
+      "fallback": null,
+      "dataRouteRegex": "^/_sites/([^/]+?)/_hidden\\-login\\-pages/login\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_mintlify/_markdown/_sites/[subdomain]/[[...slug]]": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/_mintlify/_markdown/_sites/([^/]+?)(?:/(.+?))?(?:/)?$",
+      "dataRoute": null,
+      "fallback": null,
+      "dataRouteRegex": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_live-preview/[subdomain]/[[...slug]]": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/_live\\-preview/([^/]+?)(?:/(.+?))?(?:/)?$",
+      "dataRoute": "/_live-preview/[subdomain]/[[...slug]].rsc",
+      "fallback": null,
+      "dataRouteRegex": "^/_live\\-preview/([^/]+?)(?:/(.+?))?\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_sites/[subdomain]/[[...slug]]": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/_sites/([^/]+?)(?:/(.+?))?(?:/)?$",
+      "dataRoute": "/_sites/[subdomain]/[[...slug]].rsc",
+      "fallback": null,
+      "dataRouteRegex": "^/_sites/([^/]+?)(?:/(.+?))?\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_sites/[subdomain]/_pdf/[[...slug]]": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/_sites/([^/]+?)/_pdf(?:/(.+?))?(?:/)?$",
+      "dataRoute": "/_sites/[subdomain]/_pdf/[[...slug]].rsc",
+      "fallback": null,
+      "dataRouteRegex": "^/_sites/([^/]+?)/_pdf(?:/(.+?))?\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_sites/[subdomain]/_minimal/[[...slug]]": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/_sites/([^/]+?)/_minimal(?:/(.+?))?(?:/)?$",
+      "dataRoute": "/_sites/[subdomain]/_minimal/[[...slug]].rsc",
+      "fallback": null,
+      "dataRouteRegex": "^/_sites/([^/]+?)/_minimal(?:/(.+?))?\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "eabcbf65658ecc3fdb55483a9e8cde91",
+    "previewModeSigningKey": "e0e7f60167c17f9ae6366e157b885f57081c3fe796155275a7038f036f74ddaa",
+    "previewModeEncryptionKey": "622928f8c1237e665cb019431bd58a9b0a43a36566736a2f0107345a9e91ab05"
+  }
+}
